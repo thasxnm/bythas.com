@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>thasneem</title>
+    <link rel="icon" type="image/png" href="./images/signature.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,14 +36,14 @@
         <div class="card">
             <img src="./images/sehubportal.jpg" alt="Project Image">
             <div class="container">
-                <h4><b>Team Portal Design & Development</b></h4>
+                <h4 class="text-space"><b>Team Portal Design & Development</b></h4>
                 <p>A collaborative team portal for project management.</p>
                 <div class="chip-container">
                     <div class="chip">VBCS</div>
                     <div class="chip">Figma</div>
                     <div class="chip">Database</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal1">More Info</button>
+                <button class="btn open-modal" data-modal="modal1">Project Info</button>
             </div>
         </div>
 
@@ -50,14 +51,14 @@
         <div class="card">
             <img src="./images/sentiment analysis OAC.jpg" alt="Project Image">
             <div class="container">
-                <h4><b>Apprenticeship Training Feedback Analysis</b></h4>
+                <h4 class="text-space"><b>Apprenticeship Training Feedback Analysis</b></h4>
                 <p>Sentiment Analysis with Oracle Analytics Cloud (OAC).</p>
                 <div class="chip-container">
                     <div class="chip">OAC</div>
                     <div class="chip">Excel</div>
                     <div class="chip">Python</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal2">More Info</button>
+                <button class="btn open-modal" data-modal="modal2">Project Info</button>
             </div>
         </div>
 
@@ -65,14 +66,15 @@
         <div class="card">
             <img src="./images/iMotions.jpg" alt="Project Image">
             <div class="container">
-                <h4><b>Human Behaviour Analysis</b></h4>
+                <h4 class="text-space"><b>Human Behaviour Analysis</b></h4>
                 <p>Analyzing human behavior through data insights.</p>
                 <div class="chip-container">
-                    <div class="chip">Power BI</div>
-                    <div class="chip">SQL</div>
-                    <div class="chip">Python</div>
+                    <div class="chip">Excel</div>
+                    <div class="chip">JMP</div>
+                    <div class="chip">EMOTIV</div>
+                    <div class="chip">iMotions</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal3">More Info</button>
+                <button class="btn open-modal" data-modal="modal3">Project Info</button>
             </div>
         </div>
 
@@ -80,14 +82,14 @@
         <div class="card">
             <img src="./images/RAG Architecture.png" alt="Project Image">
             <div class="container">
-                <h4><b>Vector Embedding for Similarity Search</b></h4>
+                <h4 class="text-space"><b>Vector Embedding for Similarity Search</b></h4>
                 <p>Using vector embeddings for efficient similarity search.</p>
                 <div class="chip-container">
                     <div class="chip">23ai Vector DB</div>
                     <div class="chip">Linux</div>
                     <div class="chip">RAG</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal4">More Info</button>
+                <button class="btn open-modal" data-modal="modal4">Project Info</button>
             </div>
         </div>
 
@@ -95,13 +97,13 @@
         <div class="card">
             <img src="./images/spatial-agg-03.png" alt="Project Image">
             <div class="container">
-                <h4><b>Pinpoint Suspicious Financial Transactions</b></h4>
+                <h4 class="text-space"><b>Pinpoint Suspicious Financial Transactions</b></h4>
                 <p>Using spatial analysis for financial fraud detection.</p>
                 <div class="chip-container">
                     <div class="chip">Spatial Analysis</div>
-                    <div class="chip">Python Notebook</div>
+                    <div class="chip">Jupyter Notebook</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal5">More Info</button>
+                <button class="btn open-modal" data-modal="modal5">Project Info</button>
             </div>
         </div>
 
@@ -109,26 +111,136 @@
         <div class="card">
             <img src="./images/spatial bushfire.png" alt="Project Image">
             <div class="container">
-                <h4><b>Pinpoint Suspicious Financial Transactions</b></h4>
-                <p>Using spatial analysis for financial fraud detection.</p>
+                <h4 class="text-space"><b>Spatial Geographical Analysis</b></h4>
+                <p>Visualizing Schools in Bushfire-Prone Areas</p>
                 <div class="chip-container">
-                    <div class="chip">Spatial Analysis</div>
-                    <div class="chip">Python Notebook</div>
+                    <div class="chip">GeoPandas</div>
+                    <div class="chip">MatPlotLib</div>
                 </div>
-                <button class="btn open-modal" data-modal="modal5">More Info</button>
+                <button class="btn open-modal" data-modal="modal6">Project Info</button>
+            </div>
+        </div>
+
+        <!-- Seventh Card -->
+        <div class="card">
+            <img src="./images/badge.svg" alt="Project Image">
+            <div class="container">
+                <h4 class="text-space"><b>Google Dev Fest Workshop</b></h4>
+                <p>Building AI Agents with CrewAI</p>
+                <div class="chip-container">
+                    <div class="chip">Colab</div>
+                    <div class="chip">Agentic AI</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal7">Workshop Info</button>
             </div>
         </div>
     </div>
 
-    <!-- Modals for Each Card -->
-<div id="modal1" class="modal">
-    <div class="modal-content">
-        <span class="close" data-modal="modal1">&times;</span>
-        <h2>Team Portal Design & Development</h2>
-        <p>Designed a collaborative team portal using VBCS, Figma, and databases.</p>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="text-space">Team Portal Development</h3>
+            <h3 class="text-space">Technical Aspects</h3>
+            <ul>
+                <li>Collaboratively designed and developed a user-centric <strong>Oracle Internal Portal</strong> to highlight team activities and serve as a resource hub.</li>
+                <li>Contributed to frontend layout design using <strong>Figma</strong> for mock-ups and wireframes to visualize the portal structure.</li>
+                <li>Explored various <strong>Oracle low-code/no-code platforms</strong> (e.g., VBCS, APEX, OraDocs My Sites) to determine the most suitable development approach.</li>
+            </ul>
+        </div>
     </div>
-</div>
 
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="text-space">Apprenticeship Training Report Building</h3>
+            <h3 class="text-space">Technical Aspects</h3>
+            <ul>
+                <li>Developed an analytical report as part of a <strong>Teach-back Project</strong> for <strong>Oracle University</strong> to support future program improvements.</li>
+                <li>Organized and analyzed <strong>apprenticeship course feedback data</strong> using Excel.</li>
+                <li>First-time experience analyzing <strong>long-text feedback</strong> and converting it into meaningful numerical insights.</li>
+                <li>Applied <strong>pre-trained sentiment analysis models</strong> within <strong>Oracle Analytics Cloud (OAC)</strong> to extract insights from qualitative responses.</li>
+                <li>Created a <strong>Word Cloud visualization</strong> using <strong>Matplotlib in VS Code</strong> to highlight key feedback themes.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="text-space">Neuroscience Research & Sensory Evaluation</h3>
+            <h3 class="text-space">About</h3>
+            <p>Project which I spearheaded during my 6-month internship at Croda Singapore</p>
+            <h3 class="text-space">Technical Aspects</h3>
+            <ul>
+                <li>Facilitated research on <strong>human behavior and emotions</strong> using <strong>electroencephalography (EEG)</strong> technology.</li>
+                <li>Performed <strong>implicit tests and sensory evaluations</strong> across multiple EEG headsets for data validation and comparison.</li>
+                <li>Developed an <strong>Excel-based data processing template</strong> to automate calculations and generate a <strong>Circumplex Plot</strong> for visualizing emotional states.</li>
+                <li>Troubleshot and resolved technical issues in <strong>EEG signal acquisition, experimental setup,</strong> and <strong>software integration</strong>.</li>
+                <li>Conducted routine <strong>sensory evaluations</strong> and performed <strong>statistical analysis</strong> using <strong>JMP</strong> and <strong>Microsoft Excel</strong> to assess panel performance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="text-space">Industry Use Case – RAG with Oracle 23ai & Cohere AI</h3>
+            <p><strong>Overview:</strong> Built a Retrieval-Augmented Generation (RAG) system integrating <strong>Oracle 23c vector database</strong> with <strong>Cohere’s Command R Plus LLM</strong> to enable intelligent, document-based query responses.</p>
+            <p class="text-space"><strong>Technical Aspects:</strong></p>
+            <ul>
+                <li>Deployed and configured <strong>Oracle 23ai connections</strong> on a <strong>Linux-based cloud VM</strong>.</li>
+                <li>Used <strong>SSH key authentication</strong> to securely access and manage the server environment.</li>
+                <li>Created <strong>vector-enabled tablespaces</strong> and managed database setup via SQL commands.</li>
+                <li>Utilized <strong>Object Storage</strong> and <strong>23ai DB</strong> for document storage and retrieval.</li>
+                <li>Implemented <strong>Python 3.11</strong> scripts for vectorization and similarity search operations.</li>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="text-space">Industry Use Case – Financial Security</h2>
+            <p>This project explores how spatial analysis helps in identifying credit card fraud by detecting anomalies in transaction locations. The aim was to find unusual patterns that differ from a user's normal behavior, helping to flag potentially fraudulent activities.</p>
+            <h3 class="text-space">Technical Aspects</h3>
+            <ul>
+                <li>Spatial data preparation and feature extraction using Oracle Spatial</li>
+                <li>Environment Setup: Configured a local Jupyter Notebook environment on Oracle Cloud Infrastructure (OCI) connected to Oracle Autonomous Database (ADB).</li>
+                <li>Geospatial data visualization with <strong>GeoPandas</strong> & <strong>Matplotlib</strong></li>
+                <li>Applied <strong>Isolation Forest</strong> model for anomaly detection</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="text-space">Spatial Geographical Analysis – Disaster Preparedness Use Case</h2>
+            <p>Integrating GenAI chatbot with visual mapping to help citizens to find safe places during disaster events & emergencies</p>
+            <h3 class="text-space">Technical Aspects</h3>
+            <ul>
+                <li>Utilized GeoJSON-based geospatial data, applying new data transformation techniques</li>
+                <li>Performed spatial analysis to visualize the distribution of schools located in bushfire-prone areas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="text-space">Building AI Agents with Gemini</h2>
+            <p>This session introduced the fundamentals of Gemini models and showcased their power through prompting, functions, and agents. It covered what AI Agents are, how they operate, and the role of agentic frameworks in developing intelligent applications.</p>
+            <p>Explored the concept of agentic applications and learned how to build AI agents using <strong>Gemini</strong> and <strong>CrewAI</strong>, a powerful agentic framework. The session provided a hands-on experience where I had the chance to code along to implement functional AI Agents.</p>
+        
+            <h3 class="text-space">Key Highlights</h3>
+            <ul>
+              <li>Understanding Gemini Models and their capabilities</li>
+              <li>Introduction to AI Agents, Agentic Frameworks & Applications</li>
+              <li>Hands-on coding using Gemini and CrewAI</li>
+              <li>Developing real-world AI agents in live demo environments</li>
+            </ul>
+          </div>
+        </div>
+    </div>
     <footer>© 2025 by Thasneem</footer>
 
     <script src="script.js"></script>
