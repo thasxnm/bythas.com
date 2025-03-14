@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thasneem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="menu-container" onclick="toggleMenu(this)">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+    </div>
+
+    <nav class="nav">
+        <div id="navbar"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+    </ul>
+
+    <div class="card-container">
+        <!-- First Card -->
+        <div class="card">
+            <img src="./images/sehubportal.jpg" alt="Project Image">
+            <div class="container">
+                <h4><b>Team Portal Design & Development</b></h4>
+                <p>A collaborative team portal for project management.</p>
+                <div class="chip-container">
+                    <div class="chip">VBCS</div>
+                    <div class="chip">Figma</div>
+                    <div class="chip">Database</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal1">More Info</button>
+            </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="card">
+            <img src="./images/sentiment analysis OAC.jpg" alt="Project Image">
+            <div class="container">
+                <h4><b>Apprenticeship Training Feedback Analysis</b></h4>
+                <p>Sentiment Analysis with Oracle Analytics Cloud (OAC).</p>
+                <div class="chip-container">
+                    <div class="chip">OAC</div>
+                    <div class="chip">Excel</div>
+                    <div class="chip">Python</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal2">More Info</button>
+            </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="card">
+            <img src="./images/iMotions.jpg" alt="Project Image">
+            <div class="container">
+                <h4><b>Human Behaviour Analysis</b></h4>
+                <p>Analyzing human behavior through data insights.</p>
+                <div class="chip-container">
+                    <div class="chip">Power BI</div>
+                    <div class="chip">SQL</div>
+                    <div class="chip">Python</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal3">More Info</button>
+            </div>
+        </div>
+
+        <!-- Fourth Card -->
+        <div class="card">
+            <img src="./images/RAG Architecture.png" alt="Project Image">
+            <div class="container">
+                <h4><b>Vector Embedding for Similarity Search</b></h4>
+                <p>Using vector embeddings for efficient similarity search.</p>
+                <div class="chip-container">
+                    <div class="chip">23ai Vector DB</div>
+                    <div class="chip">Linux</div>
+                    <div class="chip">RAG</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal4">More Info</button>
+            </div>
+        </div>
+
+        <!-- Fifth Card -->
+        <div class="card">
+            <img src="./images/spatial-agg-03.png" alt="Project Image">
+            <div class="container">
+                <h4><b>Pinpoint Suspicious Financial Transactions</b></h4>
+                <p>Using spatial analysis for financial fraud detection.</p>
+                <div class="chip-container">
+                    <div class="chip">Spatial Analysis</div>
+                    <div class="chip">Python Notebook</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal5">More Info</button>
+            </div>
+        </div>
+
+        <!-- Sixth Card -->
+        <div class="card">
+            <img src="./images/spatial bushfire.png" alt="Project Image">
+            <div class="container">
+                <h4><b>Pinpoint Suspicious Financial Transactions</b></h4>
+                <p>Using spatial analysis for financial fraud detection.</p>
+                <div class="chip-container">
+                    <div class="chip">Spatial Analysis</div>
+                    <div class="chip">Python Notebook</div>
+                </div>
+                <button class="btn open-modal" data-modal="modal5">More Info</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals for Each Card -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" data-modal="modal1">&times;</span>
+        <h2>Team Portal Design & Development</h2>
+        <p>Designed a collaborative team portal using VBCS, Figma, and databases.</p>
+    </div>
+</div>
+
+    <footer>© 2025 by Thasneem</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
