@@ -414,11 +414,8 @@ div.scroll-container img {
     outline: #213555 solid;
     cursor: default;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
 }
-.chip:hover {
-    transform: scale(1.1);
-}
+
 .btn {
     background-color: #213555;
     color: white;
